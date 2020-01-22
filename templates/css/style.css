@@ -1,0 +1,69 @@
+:root {
+  --gris-claro: #EAEAEA;
+  --azul: #010A26;
+  --naranja: #F2490C;
+  --gris-fuerte: #595959;
+  --naranja-claro: #F26835;
+}
+body{
+  background-color: var(--gris-claro);
+}
+
+nav{
+  background-color: var(--azul);
+}
+
+.brand-logo{
+  font-size: 2.5rem;
+  justify-content: center;
+  display: flex;
+  color:  var(--azul);
+}
+
+.subtitle{
+  color:  var(--azul) !important;
+}
+
+.card-panel{
+  margin: 2rem 0 1rem 0;
+}
+
+.select-wrapper input.select-dropdown:focus{
+  border-bottom: var(--gris-fuerte);
+}
+
+.datepicker-date-display{
+  background-color:   var(--azul);
+}
+
+.datepicker-table td.is-selected{
+  background-color: var(--naranja);
+}
+
+.datepicker-day-button:focus{
+  background-color: #F26835;
+}
+
+.datepicker-table td.is-today {
+  color: var(--naranja-claro);
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done{
+  color: var(--naranja-claro);
+}
+
+.dropdown-content li > span{
+  color:   var(--azul);
+}
+
+button.btn{
+  background-color:   var(--azul);
+}
+
+button.btn:hover{
+  background-color: var(--naranja);
+}
+
+button.btn:focus{
+  background-color: var(--naranja);
+}
